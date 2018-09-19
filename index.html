@@ -7,8 +7,7 @@
         e.preventDefault();
         return false;
     });
-});
-  $('#form_oldi').submit(function(){
+    $('#form_oldi').submit(function(){
        let $fd = $(this).serialize();
        $.post(
            'mail.php',
@@ -27,7 +26,8 @@
            }
        )
        return false;
-   })</script></head><body><header class="header"><div class="header__container"><div class="header__topSection"><div class="logo"><a href="index.html"><img src="img/main_logo.svg" alt=""></a></div><nav><div class="icon-menu"><span class="divide"></span> <span class="divide"></span> <span class="divide"></span></div><div class="main-nav"><ul class="menu" id="menu"><div class="white-logo"><img src="img/oldi_logo.svg" alt=""></div><li class="menu__item"><a id="top" class="menu__link" href="#about">About</a></li><li class="menu__item"><a id="top" class="menu__link" href="#products">Our products</a></li><li class="menu__item"><a id="top" class="menu__link" href="#subscribe">Contacts</a></li><!-- <li class="menu__item language">
+   })
+});</script></head><body><header class="header"><div class="header__container"><div class="header__topSection"><div class="logo"><a href="index.html"><img src="img/main_logo.svg" alt=""></a></div><nav><div class="icon-menu"><span class="divide"></span> <span class="divide"></span> <span class="divide"></span></div><div class="main-nav"><ul class="menu" id="menu"><div class="white-logo"><img src="img/oldi_logo.svg" alt=""></div><li class="menu__item"><a id="top" class="menu__link" href="#about">About</a></li><li class="menu__item"><a id="top" class="menu__link" href="#products">Our products</a></li><li class="menu__item"><a id="top" class="menu__link" href="#subscribe">Contacts</a></li><!-- <li class="menu__item language">
             <a href="#" id="switch_lang">English</a>
             <i class="fa fa-angle-down fa-lg" aria-hidden="true"></i>
             <ul class="submenu">
